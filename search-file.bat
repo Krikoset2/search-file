@@ -1,5 +1,5 @@
 @echo off
-color 5
+color 4
 echo                               __       _____ __   
 echo    ________  ____ ___________/ /_     / __(_) /__ 
 echo   / ___/ _ \/ __ `/ ___/ ___/ __ \   / /_/ / / _ \
@@ -35,6 +35,5 @@ powershell -Command ^
     "} "
 
 color a
-echo Done =D
-echo Output saved to %outputFile%
+echo !->> %outputFile%
 pause
